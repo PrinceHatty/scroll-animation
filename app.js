@@ -21,7 +21,7 @@ let accelamount = 0.1;
 let scrollpos= 0;
 let delay = 0;
 
-scene.on('update', e=> {
+scene.on('update', e => {
     scrollpos = e.scrollPos;
     console.log(scrollPos)
 })
