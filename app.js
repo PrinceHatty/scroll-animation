@@ -22,6 +22,6 @@ let scrollpos = 0;
 let delay = 0;
 
 scene.on('update', e => {
-    scrollpos=scrollpos
+    scrollpos= e.scrollpos
     console.log(scrollpos)
 })
