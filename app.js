@@ -41,7 +41,7 @@ setInterval(() => {
     console.log(scrollpos,delay)
 
     video.currentTime = scrollpos
-},1)
+},33.3)
 
 video.addEventListener('loadedmetadata', function() {
   if (video.buffered.length === 0) return;
