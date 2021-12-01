@@ -18,10 +18,10 @@ const scene = new ScrollMagic.Scene({
   .addTo(controller);
 
 let accelamount = 0.1;
-let scrollpos= 0;
+let scrollpos = 0;
 let delay = 0;
 
 scene.on('update', e => {
-    scrollpos = e.scrollPos;
-    console.log(scrollPos)
+    scrollpos=scrollpos
+    console.log(scrollpos)
 })
