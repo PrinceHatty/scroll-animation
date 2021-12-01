@@ -1,0 +1,35 @@
+/* Curruntly under devlopment */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+  }
+  .intro {
+    height: 100vh;
+  }
+  .intro video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .intro h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40pt;
+    color: white;
+  }
+  section {
+    height: 100vh;
+  }
+  section h1 {
+    font-size: 40pt;
+    color: black;
+    padding-top: 300px;
+    text-align: center;
+  }
+  
