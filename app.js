@@ -9,7 +9,7 @@ const endheading = document.querySelector("h1");
 const controller = new ScrollMagic.Controller();
 
 const scene = new ScrollMagic.Scene({
-  duration: 86400,
+  duration: 52000,
   triggerElemnt: intro,
   triggerHook: 0
 })
