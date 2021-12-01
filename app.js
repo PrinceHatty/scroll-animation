@@ -17,6 +17,18 @@ const scene = new ScrollMagic.Scene({
   .setPin(intro)
   .addTo(controller);
 
+const textAnim = TweenMax.fromTo(text,3,{ opacity :1 }, { opacity:0 })
+
+const scene2 = new ScrollMagic.Scene({
+  duration: 1000,
+  triggerElemnt: intro,
+  triggerHook: 0
+})
+.setTween(textAnim)
+.addTo(controller)
+
+
+
 let accelamount = 0.1;
 let scrollpos = 0;
 let delay = 0;
