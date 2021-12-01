@@ -14,4 +14,14 @@ const screen = new ScrollMagic.Scene({
   triggerHook: 0
 })
   .addIndicators()
+  .setPin(intro)
   .addTo(controller);
+
+let accelamount = 0.1;
+let scrollpos= 0;
+let delay = 0;
+
+Scene.on('update',e=>{
+    scrollpos = e.scrollPos;
+    console.log(scrollPos)
+})
