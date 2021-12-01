@@ -8,7 +8,7 @@ const endheading = document.querySelector("h1");
 
 const controller = new ScrollMagic.Controller();
 
-const screen = new ScrollMagic.Scene({
+const scene = new ScrollMagic.Scene({
   duration: 86400,
   triggerElemnt: intro,
   triggerHook: 0
@@ -21,7 +21,7 @@ let accelamount = 0.1;
 let scrollpos= 0;
 let delay = 0;
 
-Scene.on('update', e=>{
+scene.on('update', e=>{
     scrollpos = e.scrollPos;
     console.log(scrollPos)
 })
