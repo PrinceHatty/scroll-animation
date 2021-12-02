@@ -53,13 +53,11 @@
   .social svg {
     height: 30px;
   }
-  .social h2 {
+  .social a {
     font-family: "Quicksand", sans-serif;
     color: white;
     font-size: 12pt;
     margin-left: 10px;
-  }
-  .social a{
     text-decoration: none;
     color: white;
   }
