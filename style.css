@@ -59,4 +59,7 @@
     font-size: 12pt;
     margin-left: 10px;
   }
-  
+  .social a{
+    text-decoration: none;
+    color: white;
+  }
