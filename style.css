@@ -36,6 +36,7 @@
   /* soial icon */
 
   .social {
+    z-index: 10000;
     width: 170px;
     height: 60px;
   
