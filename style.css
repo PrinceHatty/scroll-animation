@@ -33,4 +33,29 @@
     padding-top: 300px;
     text-align: center;
   }
+  /* soial icon */
+
+  .social {
+    width: 170px;
+    height: 60px;
+  
+    border-radius: 5px;
+    position: absolute;
+    bottom: 40px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .social svg {
+    height: 30px;
+  }
+  .social h1 {
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 12pt;
+    margin-left: 10px;
+  }
   
